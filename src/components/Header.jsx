@@ -3,7 +3,7 @@ import Logo from "../assets/img/logo.svg";
 import { HiMenu } from "react-icons/hi";
 import { Nav } from "./Nav";
 
-export const Header = () => {
+export const Header = ({ setNavMobile }) => {
   return (
     <header className="py-6">
       <div className="container mx-auto">
@@ -14,7 +14,10 @@ export const Header = () => {
 
           <Nav />
 
-          <HiMenu className="text-3xl text-white lg:hidden cursor-pointer"/>
+          <HiMenu
+            className="text-3xl text-white lg:hidden cursor-pointer"
+            onClick={() => setNavMobile(true)}
+          />
         </div>
       </div>
     </header>
