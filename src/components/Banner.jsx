@@ -1,4 +1,5 @@
 import Img from "../assets/img/banner-img.svg";
+import { Users } from "./Users";
 
 export const Banner = () => {
   return (
@@ -24,6 +25,8 @@ export const Banner = () => {
                 Explore Device
               </a>
             </div>
+
+            <Users />
           </div>
 
           <div className="">
