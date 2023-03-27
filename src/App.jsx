@@ -6,7 +6,7 @@ import { NavMobile } from "./components/NavMobile";
 function App() {
   const [navMobile, setNavMobile] = useState(false);
   return (
-    <>
+    <div className="relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute  lg:before:-top-12 before:-z-50">
       <Header setNavMobile={setNavMobile} />
       <Banner />
 
@@ -17,7 +17,7 @@ function App() {
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
-    </>
+    </div>
   );
 }
 
