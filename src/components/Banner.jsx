@@ -3,7 +3,7 @@ import { Users } from "./Users";
 
 export const Banner = () => {
   return (
-    <section className="min-h-[600px] text-center pt-12 pb-12 lg:pt-24 lg:pb-0 lg:text-left relative">
+    <section className="min-h-[600px] text-center pt-12 pb-12 lg:pt-14 lg:pb-24 lg:text-left relative">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="">
