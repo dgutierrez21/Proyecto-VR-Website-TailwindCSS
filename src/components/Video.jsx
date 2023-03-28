@@ -18,7 +18,7 @@ export const Video = () => {
           <ModalVideo
             channel="youtube"
             isOpen={isOpen}
-            videoId="NOk_M1Ib5F0"
+            videoId="u5L9Mvh7tAk"
             onClose={() => setIsOpen(false)}
           />
 
