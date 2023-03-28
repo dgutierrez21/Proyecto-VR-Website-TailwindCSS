@@ -12,7 +12,7 @@ export const Headsets = () => {
         <div className="grid gap-y-4 lg:gap-9 lg:grid-cols-2">
           <div className="relative lg:hover:scale-105 transition-transform duration-300">
             <img src={hs1} alt="" />
-            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6">
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">Metaverse</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -22,7 +22,7 @@ export const Headsets = () => {
           </div>
           <div className="relative lg:hover:scale-105 transition-transform duration-300">
             <img src={hs2} alt="" />
-            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6">
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">AIoT</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -32,7 +32,7 @@ export const Headsets = () => {
           </div>
           <div className="relative lg:hover:scale-105 transition-transform duration-300">
             <img src={hs3} alt="" />
-            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6">
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">HoloLens</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -42,7 +42,7 @@ export const Headsets = () => {
           </div>
           <div className="relative lg:hover:scale-105 transition-transform duration-300">
             <img src={hs4} alt="" />
-            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6">
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">TPCASTT</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
