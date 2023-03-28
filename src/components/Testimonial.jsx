@@ -1,4 +1,5 @@
 import React from "react";
+import { TestimonialSlider } from "./TestimonialSlider";
 
 export const Testimonial = () => {
   return (
@@ -12,6 +13,10 @@ export const Testimonial = () => {
               Reprehenderit doloremque tempore necessitatibus maxime odit itaque
               velit, nostrum amet suscipit sapiente!
             </p>
+          </div>
+
+          <div>
+            <TestimonialSlider />
           </div>
         </div>
       </div>
