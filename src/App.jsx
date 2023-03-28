@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Banner } from "./components/Banner";
 import { Experience } from "./components/Experience";
+import { Explore } from "./components/Explore";
 import { Header } from "./components/Header";
 import { Headsets } from "./components/Headsets";
 import { NavMobile } from "./components/NavMobile";
@@ -25,6 +26,7 @@ function App() {
       <Video />
       <Headsets />
       <Testimonial />
+      <Explore />
     </div>
   );
 }
