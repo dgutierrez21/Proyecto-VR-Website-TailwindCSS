@@ -4,6 +4,7 @@ import { Experience } from "./components/Experience";
 import { Header } from "./components/Header";
 import { Headsets } from "./components/Headsets";
 import { NavMobile } from "./components/NavMobile";
+import { Testimonial } from "./components/Testimonial";
 import { Video } from "./components/Video";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Experience />
       <Video />
       <Headsets />
+      <Testimonial />
     </div>
   );
 }
