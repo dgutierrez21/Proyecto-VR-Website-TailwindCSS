@@ -5,7 +5,7 @@ import { Nav } from "./Nav";
 
 export const Header = ({ setNavMobile }) => {
   return (
-    <header className="py-6">
+    <header className="py-6" data-aos="fade-down" data-aos-duration="1500" >
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <a href="/">

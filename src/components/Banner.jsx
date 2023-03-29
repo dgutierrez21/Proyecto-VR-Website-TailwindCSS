@@ -7,16 +7,16 @@ export const Banner = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="">
-            <h1 className="text-3xl font-bold mb-8 lg:text-5xl lg:leading-snug">
+            <h1 className="text-3xl font-bold mb-8 lg:text-5xl lg:leading-snug" data-aos="fade-down" data-aos-delay="500" >
               Let's Explore <br />
               Three-Dimensional Visually.
             </h1>
-            <p className="font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0">
+            <p className="font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0"data-aos="fade-down" data-aos-delay="700" >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
               accusamus doloremque adipisci doloribus accusantium nobis.
             </p>
 
-            <div className="flex items-center justify-around space-x-4 max-w-[320px] mx-auto mb-12 lg:space-x-8 lg:max-w-none lg:mx-0 lg:justify-start">
+            <div className="flex items-center justify-around space-x-4 max-w-[320px] mx-auto mb-12 lg:space-x-8 lg:max-w-none lg:mx-0 lg:justify-start" data-aos="fade-down" data-aos-delay="900" >
               <button className="btn">Get it now</button>
               <a
                 href="#"
@@ -29,7 +29,7 @@ export const Banner = () => {
             <Users />
           </div>
 
-          <div className="">
+          <div className="" data-aos="fade-up" data-aos-delay="1100" >
             <img src={Img} alt="" />
           </div>
         </div>

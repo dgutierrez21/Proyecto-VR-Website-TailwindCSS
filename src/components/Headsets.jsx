@@ -7,10 +7,16 @@ export const Headsets = () => {
   return (
     <section className="py-12 lg:py-24">
       <div className="container mx-auto">
-        <h2 className="font-bold text-3xl mb-6">Mixed Reality Headsets</h2>
+        <h2 className="font-bold text-3xl mb-6" data-aos="fade-down">
+          Mixed Reality Headsets
+        </h2>
 
         <div className="grid gap-y-4 lg:gap-9 lg:grid-cols-2">
-          <div className="relative lg:hover:scale-105 transition-transform duration-300">
+          <div
+            className="relative lg:hover:scale-105 transition-transform duration-300"
+            data-aos="zoom-in"
+            data-aos-delay="1000"
+          >
             <img src={hs1} alt="" />
             <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">Metaverse</h4>
@@ -20,7 +26,11 @@ export const Headsets = () => {
               </p>
             </div>
           </div>
-          <div className="relative lg:hover:scale-105 transition-transform duration-300">
+          <div
+            className="relative lg:hover:scale-105 transition-transform duration-300"
+            data-aos="zoom-in"
+            data-aos-delay="1300"
+          >
             <img src={hs2} alt="" />
             <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">AIoT</h4>
@@ -30,7 +40,11 @@ export const Headsets = () => {
               </p>
             </div>
           </div>
-          <div className="relative lg:hover:scale-105 transition-transform duration-300">
+          <div
+            className="relative lg:hover:scale-105 transition-transform duration-300"
+            data-aos="zoom-in"
+            data-aos-delay="1600"
+          >
             <img src={hs3} alt="" />
             <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">HoloLens</h4>
@@ -40,7 +54,11 @@ export const Headsets = () => {
               </p>
             </div>
           </div>
-          <div className="relative lg:hover:scale-105 transition-transform duration-300">
+          <div
+            className="relative lg:hover:scale-105 transition-transform duration-300"
+            data-aos="zoom-in"
+            data-aos-delay="1900"
+          >
             <img src={hs4} alt="" />
             <div className="absolute bottom-0 bg-white/20 backdrop-blur-md min-h-[150px] max-w-[300px] p-6 rounded-tr-xl">
               <h4 className="text-xl font-semibold mb-2">TPCASTT</h4>
